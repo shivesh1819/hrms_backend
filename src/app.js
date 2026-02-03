@@ -8,7 +8,7 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "http://localhost:3000",
+      "http://localhost:5000",
       "https://hrms-backend-five.vercel.app", // frontend (Vercel)
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
