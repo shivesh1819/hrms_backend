@@ -6,7 +6,7 @@ const attendanceRoutes = require("./routes/attendance.routes");
 
 const app = express();
 
-app.use(cors({origin:"https://hrms-backend-five.vercel.app/",credentials:true}));
+app.use(cors());
 app.use(express.json());
 
 
