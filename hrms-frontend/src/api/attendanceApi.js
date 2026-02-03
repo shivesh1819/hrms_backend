@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/api/attendance";
+const API = "https://hrms-backend-zdr7.onrender.com/api/attendance";
 
 export const markAttendance = async (data) => {
   try {

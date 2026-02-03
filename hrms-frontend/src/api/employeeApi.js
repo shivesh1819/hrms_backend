@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://hrms-backend-zdr7.onrender.com/api";
 
 export const addEmployee = async (employee) => {
   const res = await fetch(`${BASE_URL}/employees`, {
